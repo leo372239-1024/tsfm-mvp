@@ -1,0 +1,34 @@
+{
+  "protocol": "2018 holdout; 8-hour recursive forecast; 24-hour origin spacing; all 168 context and 8 target hours observed",
+  "origins": 199,
+  "target_points": 1592,
+  "first_origin": "2018-01-01 00:00:00+00:00",
+  "last_origin": "2018-09-30 00:00:00+00:00",
+  "candidate": {
+    "MAE": 194.052,
+    "RMSE": 305.335,
+    "WAPE": 0.10764
+  },
+  "baselines": {
+    "yesterday_same_hour": {
+      "MAE": 340.005,
+      "RMSE": 520.428,
+      "WAPE": 0.1886
+    },
+    "last_week_same_hour": {
+      "MAE": 267.304,
+      "RMSE": 480.813,
+      "WAPE": 0.14828
+    }
+  },
+  "per_horizon_mae": {
+    "1": 167.473,
+    "2": 189.979,
+    "3": 290.766,
+    "4": 340.57,
+    "5": 287.35,
+    "6": 133.585,
+    "7": 79.568,
+    "8": 63.124
+  }
+}

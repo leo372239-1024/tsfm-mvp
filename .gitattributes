@@ -1,0 +1,4 @@
+# Preserve exact bytes on checkout and commit.
+# data/manifest.json and evidence/manifest.json verify frozen SHA256 values,
+# so any line-ending conversion by Git would break reproducibility checks.
+* -text

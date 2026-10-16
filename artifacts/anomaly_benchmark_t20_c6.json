@@ -1,0 +1,179 @@
+{
+  "protocol": "NAB realTraffic, causal replay, labeled-window event metrics (not official NAB score)",
+  "threshold": 20.0,
+  "cooldown_hours": 6.0,
+  "candidate": {
+    "events": 14,
+    "detected_events": 2,
+    "false_alerts": 8,
+    "precision": 0.2,
+    "event_recall": 0.1429,
+    "event_f1": 0.1667,
+    "false_alerts_per_day": 0.041
+  },
+  "baseline": {
+    "events": 14,
+    "detected_events": 13,
+    "false_alerts": 48,
+    "precision": 0.2131,
+    "event_recall": 0.9286,
+    "event_f1": 0.3467,
+    "false_alerts_per_day": 0.246
+  },
+  "per_file": [
+    {
+      "file": "realTraffic/occupancy_6005.csv",
+      "points": 2380,
+      "candidate": {
+        "events": 1,
+        "detected_events": 0,
+        "false_alerts": 0,
+        "precision": 0.0,
+        "event_recall": 0.0,
+        "event_f1": 0.0,
+        "false_alerts_per_day": 0.0
+      },
+      "baseline": {
+        "events": 1,
+        "detected_events": 1,
+        "false_alerts": 3,
+        "precision": 0.25,
+        "event_recall": 1.0,
+        "event_f1": 0.4,
+        "false_alerts_per_day": 0.186
+      }
+    },
+    {
+      "file": "realTraffic/occupancy_t4013.csv",
+      "points": 2500,
+      "candidate": {
+        "events": 2,
+        "detected_events": 0,
+        "false_alerts": 0,
+        "precision": 0.0,
+        "event_recall": 0.0,
+        "event_f1": 0.0,
+        "false_alerts_per_day": 0.0
+      },
+      "baseline": {
+        "events": 2,
+        "detected_events": 2,
+        "false_alerts": 2,
+        "precision": 0.5,
+        "event_recall": 1.0,
+        "event_f1": 0.6667,
+        "false_alerts_per_day": 0.123
+      }
+    },
+    {
+      "file": "realTraffic/speed_6005.csv",
+      "points": 2500,
+      "candidate": {
+        "events": 1,
+        "detected_events": 0,
+        "false_alerts": 0,
+        "precision": 0.0,
+        "event_recall": 0.0,
+        "event_f1": 0.0,
+        "false_alerts_per_day": 0.0
+      },
+      "baseline": {
+        "events": 1,
+        "detected_events": 1,
+        "false_alerts": 0,
+        "precision": 1.0,
+        "event_recall": 1.0,
+        "event_f1": 1.0,
+        "false_alerts_per_day": 0.0
+      }
+    },
+    {
+      "file": "realTraffic/speed_7578.csv",
+      "points": 1127,
+      "candidate": {
+        "events": 4,
+        "detected_events": 0,
+        "false_alerts": 0,
+        "precision": 0.0,
+        "event_recall": 0.0,
+        "event_f1": 0.0,
+        "false_alerts_per_day": 0.0
+      },
+      "baseline": {
+        "events": 4,
+        "detected_events": 3,
+        "false_alerts": 2,
+        "precision": 0.6,
+        "event_recall": 0.75,
+        "event_f1": 0.6667,
+        "false_alerts_per_day": 0.22
+      }
+    },
+    {
+      "file": "realTraffic/speed_t4013.csv",
+      "points": 2495,
+      "candidate": {
+        "events": 2,
+        "detected_events": 0,
+        "false_alerts": 0,
+        "precision": 0.0,
+        "event_recall": 0.0,
+        "event_f1": 0.0,
+        "false_alerts_per_day": 0.0
+      },
+      "baseline": {
+        "events": 2,
+        "detected_events": 2,
+        "false_alerts": 0,
+        "precision": 1.0,
+        "event_recall": 1.0,
+        "event_f1": 1.0,
+        "false_alerts_per_day": 0.0
+      }
+    },
+    {
+      "file": "realTraffic/TravelTime_387.csv",
+      "points": 2500,
+      "candidate": {
+        "events": 3,
+        "detected_events": 1,
+        "false_alerts": 4,
+        "precision": 0.2,
+        "event_recall": 0.3333,
+        "event_f1": 0.25,
+        "false_alerts_per_day": 0.058
+      },
+      "baseline": {
+        "events": 3,
+        "detected_events": 3,
+        "false_alerts": 14,
+        "precision": 0.1765,
+        "event_recall": 1.0,
+        "event_f1": 0.3,
+        "false_alerts_per_day": 0.203
+      }
+    },
+    {
+      "file": "realTraffic/TravelTime_451.csv",
+      "points": 2162,
+      "candidate": {
+        "events": 1,
+        "detected_events": 1,
+        "false_alerts": 4,
+        "precision": 0.2,
+        "event_recall": 1.0,
+        "event_f1": 0.3333,
+        "false_alerts_per_day": 0.078
+      },
+      "baseline": {
+        "events": 1,
+        "detected_events": 1,
+        "false_alerts": 27,
+        "precision": 0.0357,
+        "event_recall": 1.0,
+        "event_f1": 0.069,
+        "false_alerts_per_day": 0.527
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "protocol": "one-step ahead, past 168 hours only, fixed UTC-06 wall clock, no future covariates",
+  "split": {
+    "train": 5804,
+    "validation": 6166,
+    "test": 4939,
+    "test_start": "2018-01-01 00:00:00+00:00",
+    "test_end": "2018-10-01 05:00:00+00:00"
+  },
+  "model": "HistGradientBoostingRegressor-v1",
+  "validation": {
+    "MAE": 166.636,
+    "RMSE": 254.467,
+    "WAPE": 0.04919
+  },
+  "test": {
+    "MAE": 152.036,
+    "RMSE": 239.763,
+    "WAPE": 0.04585
+  },
+  "baselines": {
+    "yesterday_same_hour": {
+      "MAE": 560.299,
+      "RMSE": 1025.834,
+      "WAPE": 0.16896
+    },
+    "last_week_same_hour": {
+      "MAE": 343.861,
+      "RMSE": 666.58,
+      "WAPE": 0.10369
+    }
+  }
+}

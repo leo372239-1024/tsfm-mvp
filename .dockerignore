@@ -1,0 +1,10 @@
+.env
+.git
+.venv
+__pycache__
+.pytest_cache
+evidence
+data/source_metro.zip
+data/Metro_Interstate_Traffic_Volume.csv
+artifacts/forecast_benchmark.json
+

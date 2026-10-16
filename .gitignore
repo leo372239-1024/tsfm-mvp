@@ -1,0 +1,15 @@
+# Local credentials: never commit, never package.
+.env
+
+# Python build artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Local agent/workspace metadata (not part of the deliverable)
+.workbuddy/
+.workbuddy-ai/
+
+# Personal job-application material, kept local only
+docs/resume_project_entry.md

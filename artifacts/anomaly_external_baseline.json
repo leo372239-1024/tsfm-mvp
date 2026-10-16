@@ -1,0 +1,44 @@
+{
+  "protocol": "NAB official optimize->score->normalize restricted to the 7 realTraffic files; standard cost matrix; 15% probation; thresholds optimized on these same labeled windows, as NAB does for its published detector scores",
+  "pinned_commit": "ea702d75cc2258d9d7dd35ca8e5e2539d71f3140",
+  "files": {
+    "numentaTM_TravelTime_387.csv": "07f5d0975bcc5d11474462fa2d106c00b897486e4b33eccd42534b3d1e6c348a",
+    "numentaTM_TravelTime_451.csv": "2f6d6cc7803996e02bc732e986eeeb00207e78abfe18f83631505152e3179434",
+    "numentaTM_occupancy_6005.csv": "1f4d087803a4c58fe70583082560993893825f579f5c131aad6a4e92f8499ddd",
+    "numentaTM_occupancy_t4013.csv": "8ced45ae72a588c7621af1af811d7f5f75fa4b6aaa1534d19a11aee81371f8fe",
+    "numentaTM_speed_6005.csv": "6b9298d4bc566c4be1f4206bf3ee0f59730aa3522a62ee95406081dc605b6685",
+    "numentaTM_speed_7578.csv": "a196979e9374676f02c63b805ed1140fef6cbd1ad2c9f66711934c03c90eeea8",
+    "numentaTM_speed_t4013.csv": "454a2de0950fdf658e4a44f4ddd7ce62772cc136f65711dbe1bd9516411ce7c4"
+  },
+  "labeled_windows": 14,
+  "sanity": {
+    "null_best_score": -14.0,
+    "perfect_best_score": 14.0
+  },
+  "numentaTM": {
+    "optimized_threshold": 0.663265861729,
+    "raw_best_score": 8.1262,
+    "points_tp_fp_fn": [
+      22,
+      4,
+      1538
+    ],
+    "subset_normalized_score": 79.022
+  },
+  "candidate_continuous_diagnostic": {
+    "note": "diagnostic only: detector score stream without the production absolute guard and 12h cooldown; scores quantized to 3 decimals by the assess() contract",
+    "optimized_threshold": 7.493,
+    "raw_best_score": 2.4819,
+    "points_tp_fp_fn": [
+      49,
+      71,
+      1511
+    ],
+    "subset_normalized_score": 58.864
+  },
+  "candidate_fixed_operating_point_reference": {
+    "note": "from artifacts/anomaly_benchmark_t6_c3_rearm3.json; deployed rule: fixed threshold 6.0, 3.0h cooldown, re-arm below 3.0; not threshold-optimized",
+    "raw_best_score": 8.702,
+    "subset_normalized_score": 81.079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol": "Direct multi-horizon, no future covariates, same 2018 daily origins",
+  "train_rows": 46246,
+  "validation_rows": 49243,
+  "test_origins": 199,
+  "test_points": 1592,
+  "validation": {
+    "MAE": 234.952,
+    "RMSE": 405.231,
+    "WAPE": 0.06936
+  },
+  "test": {
+    "MAE": 189.506,
+    "RMSE": 302.834,
+    "WAPE": 0.10512
+  }
+}

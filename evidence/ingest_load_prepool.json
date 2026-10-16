@@ -1,0 +1,16 @@
+{
+  "streams": 10,
+  "points_per_stream": 100,
+  "requests": 1000,
+  "http_200": 1000,
+  "http_errors": 0,
+  "elapsed_seconds": 13.785,
+  "throughput_rps": 72.54,
+  "latency_ms": {
+    "p50": 127.85,
+    "p95": 211.41,
+    "p99": 279.51,
+    "max": 402.58
+  },
+  "environment": "local Docker Desktop, one API container, 10 independent asset streams"
+}

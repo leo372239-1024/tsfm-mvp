@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": [
+    "readiness",
+    "auth",
+    "demo forecast",
+    "report persistence",
+    "graph provenance",
+    "backfill idempotency",
+    "conflict",
+    "realtime alarm",
+    "cooldown",
+    "hysteresis re-arm",
+    "acknowledgement"
+  ],
+  "api_get_assets_latency_ms": {
+    "count": 30,
+    "p50": 8.14,
+    "p95": 9.31
+  },
+  "qa_asset_id": "QA-ea877b5e5a79",
+  "demo_report_id": "929d1891-f67b-44e4-bf73-1f2f9db0e713"
+}

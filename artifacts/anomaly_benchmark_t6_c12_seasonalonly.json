@@ -1,0 +1,232 @@
+{
+  "protocol": "NAB realTraffic, causal replay, labeled-window event metrics (not official NAB score)",
+  "threshold": 6.0,
+  "cooldown_hours": 12.0,
+  "candidate": {
+    "events": 14,
+    "detected_events": 13,
+    "false_alerts": 37,
+    "precision": 0.26,
+    "event_recall": 0.9286,
+    "event_f1": 0.4062,
+    "false_alerts_per_day": 0.19
+  },
+  "baseline": {
+    "events": 14,
+    "detected_events": 13,
+    "false_alerts": 41,
+    "precision": 0.2407,
+    "event_recall": 0.9286,
+    "event_f1": 0.3824,
+    "false_alerts_per_day": 0.21
+  },
+  "nab_standard_realTraffic_subset": {
+    "candidate": 76.163,
+    "baseline": 75.222,
+    "raw": {
+      "candidate": 7.326,
+      "baseline": 7.062,
+      "null": -14.0,
+      "perfect": 14.0
+    },
+    "note": "Official NAB Sweeper, standard profile, 15% probation; normalized within 7 traffic files only, not the 58-file leaderboard score."
+  },
+  "per_file": [
+    {
+      "file": "realTraffic/occupancy_6005.csv",
+      "points": 2380,
+      "candidate": {
+        "events": 1,
+        "detected_events": 1,
+        "false_alerts": 2,
+        "precision": 0.3333,
+        "event_recall": 1.0,
+        "event_f1": 0.5,
+        "false_alerts_per_day": 0.124
+      },
+      "baseline": {
+        "events": 1,
+        "detected_events": 1,
+        "false_alerts": 3,
+        "precision": 0.25,
+        "event_recall": 1.0,
+        "event_f1": 0.4,
+        "false_alerts_per_day": 0.186
+      },
+      "nab_raw_standard": {
+        "candidate": 0.8698802915825645,
+        "baseline": 0.7733100258398724,
+        "null": -1.0,
+        "perfect": 1.0
+      }
+    },
+    {
+      "file": "realTraffic/occupancy_t4013.csv",
+      "points": 2500,
+      "candidate": {
+        "events": 2,
+        "detected_events": 2,
+        "false_alerts": 0,
+        "precision": 1.0,
+        "event_recall": 1.0,
+        "event_f1": 1.0,
+        "false_alerts_per_day": 0.0
+      },
+      "baseline": {
+        "events": 2,
+        "detected_events": 2,
+        "false_alerts": 2,
+        "precision": 0.5,
+        "event_recall": 1.0,
+        "event_f1": 0.6667,
+        "false_alerts_per_day": 0.123
+      },
+      "nab_raw_standard": {
+        "candidate": 1.725221520228401,
+        "baseline": 1.6260251845026101,
+        "null": -2.0,
+        "perfect": 2.0
+      }
+    },
+    {
+      "file": "realTraffic/speed_6005.csv",
+      "points": 2500,
+      "candidate": {
+        "events": 1,
+        "detected_events": 1,
+        "false_alerts": 0,
+        "precision": 1.0,
+        "event_recall": 1.0,
+        "event_f1": 1.0,
+        "false_alerts_per_day": 0.0
+      },
+      "baseline": {
+        "events": 1,
+        "detected_events": 1,
+        "false_alerts": 0,
+        "precision": 1.0,
+        "event_recall": 1.0,
+        "event_f1": 1.0,
+        "false_alerts_per_day": 0.0
+      },
+      "nab_raw_standard": {
+        "candidate": 0.8426220017559383,
+        "baseline": 0.8426220017559383,
+        "null": -1.0,
+        "perfect": 1.0
+      }
+    },
+    {
+      "file": "realTraffic/speed_7578.csv",
+      "points": 1127,
+      "candidate": {
+        "events": 4,
+        "detected_events": 3,
+        "false_alerts": 2,
+        "precision": 0.6,
+        "event_recall": 0.75,
+        "event_f1": 0.6667,
+        "false_alerts_per_day": 0.22
+      },
+      "baseline": {
+        "events": 4,
+        "detected_events": 3,
+        "false_alerts": 2,
+        "precision": 0.6,
+        "event_recall": 0.75,
+        "event_f1": 0.6667,
+        "false_alerts_per_day": 0.22
+      },
+      "nab_raw_standard": {
+        "candidate": 1.5022784251354842,
+        "baseline": 1.5022784251354842,
+        "null": -4.0,
+        "perfect": 4.0
+      }
+    },
+    {
+      "file": "realTraffic/speed_t4013.csv",
+      "points": 2495,
+      "candidate": {
+        "events": 2,
+        "detected_events": 2,
+        "false_alerts": 0,
+        "precision": 1.0,
+        "event_recall": 1.0,
+        "event_f1": 1.0,
+        "false_alerts_per_day": 0.0
+      },
+      "baseline": {
+        "events": 2,
+        "detected_events": 2,
+        "false_alerts": 0,
+        "precision": 1.0,
+        "event_recall": 1.0,
+        "event_f1": 1.0,
+        "false_alerts_per_day": 0.0
+      },
+      "nab_raw_standard": {
+        "candidate": 1.7569129190107362,
+        "baseline": 1.7663178312188101,
+        "null": -2.0,
+        "perfect": 2.0
+      }
+    },
+    {
+      "file": "realTraffic/TravelTime_387.csv",
+      "points": 2500,
+      "candidate": {
+        "events": 3,
+        "detected_events": 3,
+        "false_alerts": 11,
+        "precision": 0.2143,
+        "event_recall": 1.0,
+        "event_f1": 0.3529,
+        "false_alerts_per_day": 0.159
+      },
+      "baseline": {
+        "events": 3,
+        "detected_events": 3,
+        "false_alerts": 13,
+        "precision": 0.1875,
+        "event_recall": 1.0,
+        "event_f1": 0.3158,
+        "false_alerts_per_day": 0.188
+      },
+      "nab_raw_standard": {
+        "candidate": 1.5461867204599,
+        "baseline": 1.4463881196652921,
+        "null": -3.0,
+        "perfect": 3.0
+      }
+    },
+    {
+      "file": "realTraffic/TravelTime_451.csv",
+      "points": 2162,
+      "candidate": {
+        "events": 1,
+        "detected_events": 1,
+        "false_alerts": 22,
+        "precision": 0.0435,
+        "event_recall": 1.0,
+        "event_f1": 0.0833,
+        "false_alerts_per_day": 0.43
+      },
+      "baseline": {
+        "events": 1,
+        "detected_events": 1,
+        "false_alerts": 21,
+        "precision": 0.0455,
+        "event_recall": 1.0,
+        "event_f1": 0.087,
+        "false_alerts_per_day": 0.41
+      },
+      "nab_raw_standard": {
+        "candidate": -0.9174109453140719,
+        "baseline": -0.8947284560572837,
+        "null": -1.0,
+        "perfect": 1.0
+      }
+    }
+  ]
+}
